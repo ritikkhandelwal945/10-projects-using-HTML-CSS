@@ -1,0 +1,73 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1{
+    background-image: url(images/robert-lukeman-_RBcxo9AU-U-unsplash.jpg);
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url(images/alessandro-erbetta-mpWPcRT9D1E-unsplash.jpg);
+    min-height: 400px;
+}
+
+.text{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: blue;
+    font-size: 27px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.pimg3{
+    background-image: url(images/pexels-pixabay-45853.jpg);
+    min-height: 400px;
+}
+
+.pimg4{
+    background-image: url(images/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg);
+    min-height: 100%;
+}
+
+.pimg1,.pimg2,.pimg3,.pimg4{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.textbg{
+    background-color: #314533;
+    color: white;
+    padding: 15px;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+    display: grid;
+}
+
+.section_lite{
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+
+.section_dark{
+    background-color: #314533;
+    color: #ddd;
+}
+
+
